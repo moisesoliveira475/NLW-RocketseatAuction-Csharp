@@ -8,9 +8,9 @@ public class GetCurrentAuctionUseCase
 {
     public Auction? Execute()
     {
-        var repositorie = new RocketseatAuctionDbContext();
+        var repository = new RocketseatAuctionDbContext();
 
-        return repositorie
+        return repository
             .Auctions
             .Include(auction => auction.Items)
             .FirstOrDefault();
