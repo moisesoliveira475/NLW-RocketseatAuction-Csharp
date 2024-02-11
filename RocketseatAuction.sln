@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5E74B58F-C05A-4D69-953D-9F0F9F917094}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1D9B01B0-13C6-4F6F-B319-C1775F68F72C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RocketseatAuction.API", "src\RocketseatAuction.API\RocketseatAuction.API.csproj", "{AA4ABE2B-1287-4456-ACC8-D88C74483BAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA4ABE2B-1287-4456-ACC8-D88C74483BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4ABE2B-1287-4456-ACC8-D88C74483BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA4ABE2B-1287-4456-ACC8-D88C74483BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4ABE2B-1287-4456-ACC8-D88C74483BAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AA4ABE2B-1287-4456-ACC8-D88C74483BAB} = {5E74B58F-C05A-4D69-953D-9F0F9F917094}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB9D5648-D20E-4B4C-A5AB-AD8E761F1D67}
+	EndGlobalSection
+EndGlobal
